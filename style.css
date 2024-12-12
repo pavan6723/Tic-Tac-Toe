@@ -1,6 +1,9 @@
 body{
-    background-color: #FFE893;
+    background-color: black;
     text-align: center;
+}
+.head{
+    color: red;
 }
 .container{
     height: 70vh;
@@ -21,19 +24,18 @@ body{
     height: 18vmin;
     width: 18vmin;
     border-radius: 1rem;
-    background-color: #B1F0F7;
+    background-color: #A1662F;
     border: none;
     font-weight: bold;
     box-shadow: 0 0 1rem rgba(0,0,0,0.1);
     font-size: 2.5rem;
     color: rgb(137, 44, 44);
 }
-#btn-reset{
+#btn-reset,#newGame{
     padding: 1rem;
     font-size: 1.3rem;
-    background-color: black;
-    color: red;
-    background-color: rgb(44, 40, 40);
+    background-color: red;
+    color:black;
     border: none;
     font-weight: bold;
     border-radius: 0.7rem;
@@ -47,25 +49,14 @@ body{
     gap: 4rem;
 }
 #win{
-    color:green;
+    color:white;
     font-size: 3rem;
     font-weight: bold;
 }
 .hide{
     display: none;
 }
-#newGame{
-    padding: 1rem;
-    font-size: 1.3rem;
-    background-color: black;
-    color:red;
-    background-color: rgb(44, 40, 40);
-    border: none;
-    font-weight: bold;
-    border-radius: 0.7rem;
-}
-
-#btn-reset:hover{
+#btn-reset,#newGame:hover{
     cursor: pointer;
 }
 

@@ -20,10 +20,12 @@ let winFlag=false;
 boxes.forEach((box)=>{
     box.addEventListener("click",()=>{
         if(turnO){
+            box.style.color="black";
             box.innerText="O";
             turnO=false;
         }
         else{
+            box.style.color="red";;
             box.innerText="X";
             turnO=true;
         }
